@@ -16,7 +16,7 @@ This system has been built through:
 - Real time visualization in MATLAB 
 - Vision analysis through machine learning using YOLOv8
 
-The embedded prototype will classify the monitored system into three categories:
+The embedded prototype will classify the monitored system into four categories:
 
 - NORMAL 
 - OPEN CIRCUIT 
