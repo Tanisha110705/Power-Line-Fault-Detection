@@ -1,25 +1,25 @@
 # Low-Cost Embedded System for Electrical Fault Detection and Physical Anomaly Monitoring in Power Lines
 
-## 📌 Overview
+## Overview
 
-This project presents a low-cost embedded system designed for real-time electrical fault detection and physical anomaly monitoring in power transmission lines.
+This project is an affordable embedded system which is developed to monitor and detect faults in power transmission lines.
 
-Traditional electrical fault detection systems can be expensive, complex and unsuitable for educational laboratory environments. This project develops a low-cost prototype using an Arduino Uno as the central embedded controller.
+Conventional electrical fault detection systems can be costly and complicated as well as not suitable for laboratory use. This project is an affordable prototype which makes use of the Arduino Uno as the central embedded controller.
 
-The system combines:
+This system has been built through:
 
-- Electrical current monitoring using an ACS712 current sensor
-- Physical proximity monitoring using an HC-SR04 ultrasonic sensor
-- Real-time status display using a 16×2 I2C LCD
-- LED-based fault indication
-- Serial communication for data monitoring and analysis
-- MATLAB-based real-time visualization
-- Machine-learning-based vision analysis using YOLOv8
+- Electrical current measurement by an ACS712 current sensor 
+- Proximity measurement by an HC-SR04 ultrasonic sensor 
+- Real time status monitoring by 16×2 I2C LCD
+- LED based fault identification
+- Serial Communication for data monitoring and analysis 
+- Real time visualization in MATLAB 
+- Vision analysis through machine learning using YOLOv8
 
-The embedded prototype classifies the monitored system into:
+The embedded prototype will classify the monitored system into three categories:
 
-- NORMAL
-- OPEN CIRCUIT
+- NORMAL 
+- OPEN CIRCUIT 
 - OVERCURRENT
 - OBSTACLE
 
@@ -27,25 +27,25 @@ The project also explores vision-based person detection to provide an additional
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 
-The main objectives of this project are:
+The key goals of this project include:
 
-1. Detect electrical overcurrent conditions.
-2. Detect open-circuit conditions.
-3. Monitor physical proximity around the monitored power-line prototype.
-4. Detect nearby obstacles using an ultrasonic sensor.
-5. Display system parameters and fault states in real time.
-6. Reduce measurement noise through sensor averaging and filtering.
-7. Provide visual fault indication.
-8. Transfer sensor data through serial communication.
-9. Visualize sensor data using MATLAB.
-10. Integrate machine-learning-based object detection using YOLOv8.
-11. Develop an affordable and safe prototype suitable for educational applications.
+1. Identification of electrical overcurrent faults.
+2. Identification of open circuit faults.
+3. Detection of physical proximity to the monitored power-line prototype.
+4. Identification of obstacles in the vicinity of the prototype with an ultrasonic sensor.
+5. Real-time display of system parameters and fault conditions.
+6. Minimization of measurement errors via averaging and filtering of sensor values.
+7. Visual identification of faults.
+8. Transmission of the sensors’ measurements through serial interface.
+9. Visualization of sensors' values via MATLAB.
+10. Integration of machine learning-based object recognition with YOLOv8 algorithm.
+11. Design of an affordable and safe prototype suitable for educational purposes.
 
 ---
 
-# 🏗️ System Architecture
+#  System Architecture
 
 ```text
                          POWER-LINE
